@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Homework5-TBC-IT-Academy</string>
+    <string name="app_full_name">photo</string>
+    <string name="log_in">LOG IN</string>
+    <string name="register">REGISTER</string>>
+    <string name="back_button">Back icon</string>
+    <string name="register_register_activity">Register</string>
+    <string name="email">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="next_button">NEXT</string>
+    <string name="log_in_log_in_layout">Log in</string>
+    <string name="username">Username</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="terms">By signing up, you agree to Photo\'s Terms of Service and Privacy Policy.</string>
+</resources>

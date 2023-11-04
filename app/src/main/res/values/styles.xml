@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Custom.Text.Field" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@drawable/custom_box_stroke_color</item>
+        <item name="boxStrokeWidth">@dimen/custom_input_box_stroke_width</item>
+        <item name="boxCornerRadiusTopStart">@dimen/custom_input_box_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/custom_input_box_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/custom_input_box_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/custom_input_box_radius</item>
+    </style>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first_page_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_name_and_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/app_logo_padding"
+        android:fontFamily="@font/comfortaa_regular"
+        android:text="@string/app_full_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/app_name_font_size"
+        app:drawableStartCompat="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/log_in_register_button_layout_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/log_in_button"
+            style="@style/Widget.Material3.MaterialTimePicker.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:padding="@dimen/button_padding"
+            android:text="@string/log_in"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:strokeColor="@color/black"
+            app:strokeWidth="@dimen/log_in_button_stroke_width"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Space
+            android:layout_width="@dimen/button_spacer"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/register_button"
+            style="@style/Widget.Material3.MaterialTimePicker.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:padding="@dimen/button_padding"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:strokeColor="@color/white"
+            app:strokeWidth="@dimen/register_button_stroke_width"
+            tools:ignore="VisualLintButtonSize" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
