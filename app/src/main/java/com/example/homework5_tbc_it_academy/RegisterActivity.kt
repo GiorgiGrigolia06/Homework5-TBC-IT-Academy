@@ -17,6 +17,7 @@ class RegisterActivity : AppCompatActivity() {
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // Observes input fields and, if necessary, shows validation messages.
         lifecycleScope.launch {
             viewModel.uiState.collect {
                 with(binding) {
@@ -26,12 +27,15 @@ class RegisterActivity : AppCompatActivity() {
             }
         }
 
+        // Checks if user input is valid. If it is, saves it and navigates to the next stage of the registration.
         binding.nextButton.setOnClickListener {
             viewModel.validateEmail(binding.emailTextFieldInput.text.toString())
             viewModel.validatePassword(binding.passwordFieldInputRegisterActivity.text.toString())
 
             if (viewModel.uiState.value.isValidEmail && viewModel.uiState.value.isValidPassword) {
                 val intent = Intent(this, Register2Activity::class.java)
+                intent.putExtra(EMAIL, binding.emailTextFieldInput.text.toString())
+                intent.putExtra(PASSWORD, binding.passwordFieldInputRegisterActivity.text.toString())
                 startActivity(intent)
             }
         }
@@ -39,5 +43,10 @@ class RegisterActivity : AppCompatActivity() {
         binding.registerBackButton.setOnClickListener {
             finish()
         }
+    }
+
+    companion object {
+        const val EMAIL = "email"
+        const val PASSWORD = "password"
     }
 }
