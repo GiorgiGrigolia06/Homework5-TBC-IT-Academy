@@ -13,6 +13,6 @@
     <string name="sign_up">SIGN UP</string>
     <string name="terms">By signing up, you agree to Photo\'s Terms of Service and Privacy Policy.</string>
     <string name="username_blank">Username field is blank.</string>
-    <string name="successful_log_in">You have been successfully signed in.</string>
+    <string name="successful_log_in">You have been successfully logged in.</string>
     <string name="failed_log_in">Could not authorize the user. Please try again.</string>
 </resources>
