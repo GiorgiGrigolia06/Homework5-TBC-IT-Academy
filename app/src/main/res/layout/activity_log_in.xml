@@ -56,7 +56,8 @@
         android:layout_marginTop="@dimen/password_field_margin_top"
         android:hint="@string/password"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email_text_field_layout_log_in_activity">
+        app:layout_constraintTop_toBottomOf="@+id/email_text_field_layout_log_in_activity"
+        app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password_field_input_log_in_activity"

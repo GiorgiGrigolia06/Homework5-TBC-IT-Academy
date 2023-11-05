@@ -55,10 +55,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/password_field_margin_top"
-        app:helperTextTextColor="@android:color/holo_red_light"
         android:hint="@string/password"
+        app:helperTextTextColor="@android:color/holo_red_light"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email_text_field_layout_register_activity">
+        app:layout_constraintTop_toBottomOf="@+id/email_text_field_layout_register_activity"
+        app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password_field_input_register_activity"
