@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "667689209168",
+    "project_id": "registrationFlowWithFirebase",
+    "storage_bucket": "registrationFlowWithFirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667689209168:android:1dca4a7683809c6e883055",
+        "android_client_info": {
+          "package_name": "com.example.registrationFlowWithFirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmYkaRq64OwsLn7dL-gRlpJBNhTTyKlNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
