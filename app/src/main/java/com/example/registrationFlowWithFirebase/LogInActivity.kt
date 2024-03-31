@@ -1,9 +1,9 @@
-package com.example.homework5_tbc_it_academy
+package com.example.registrationFlowWithFirebase
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.homework5_tbc_it_academy.databinding.ActivityLogInBinding
+import com.example.registrationFlowWithFirebase.databinding.ActivityLogInBinding
 import com.google.firebase.auth.FirebaseAuth
 
 class LogInActivity : AppCompatActivity() {

@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Homework5-TBC-IT-Academy"
+rootProject.name = "registrationFlowWithFirebase"
 include(":app")
  

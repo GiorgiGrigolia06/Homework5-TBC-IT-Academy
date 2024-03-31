@@ -1,9 +1,9 @@
-package com.example.homework5_tbc_it_academy
+package com.example.registrationFlowWithFirebase
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.homework5_tbc_it_academy.databinding.ActivityMainBinding
+import com.example.registrationFlowWithFirebase.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

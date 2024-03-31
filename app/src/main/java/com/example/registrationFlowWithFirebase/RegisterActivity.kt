@@ -1,11 +1,11 @@
-package com.example.homework5_tbc_it_academy
+package com.example.registrationFlowWithFirebase
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.example.homework5_tbc_it_academy.databinding.ActivityRegisterBinding
+import com.example.registrationFlowWithFirebase.databinding.ActivityRegisterBinding
 import kotlinx.coroutines.launch
 
 class RegisterActivity : AppCompatActivity() {

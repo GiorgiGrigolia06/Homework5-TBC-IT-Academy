@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Homework5-TBC-IT-Academy</string>
+    <string name="app_name">Registration Flow with Firebase</string>
     <string name="app_full_name">photo</string>
     <string name="log_in">LOG IN</string>
     <string name="register">REGISTER</string>>

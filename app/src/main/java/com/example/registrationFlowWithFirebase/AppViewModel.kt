@@ -1,4 +1,4 @@
-package com.example.homework5_tbc_it_academy
+package com.example.registrationFlowWithFirebase
 
 import android.util.Patterns
 import androidx.lifecycle.ViewModel

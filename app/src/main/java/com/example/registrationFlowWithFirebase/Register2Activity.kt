@@ -1,4 +1,4 @@
-package com.example.homework5_tbc_it_academy
+package com.example.registrationFlowWithFirebase
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,7 +6,7 @@ import android.text.SpannableString
 import android.text.style.UnderlineSpan
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.homework5_tbc_it_academy.databinding.ActivityRegister2Binding
+import com.example.registrationFlowWithFirebase.databinding.ActivityRegister2Binding
 import com.google.firebase.auth.FirebaseAuth
 
 class Register2Activity : AppCompatActivity() {
